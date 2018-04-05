@@ -1,0 +1,102 @@
+/*页头的样式*/
+.dh_top{
+    width:100%;
+    background:#FFF;
+    height:118px;
+    overflow:hidden;}
+#top_content{
+    width:1188px;
+    margin:0px auto;
+}
+/*nav样式*/
+.nav_bg{
+    background: #292529;
+    height: 41px;
+    border-bottom: 4px #FF4B01 solid;
+    line-height: 41px
+}
+.nav_con{
+    width: 1188px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.nav_con li{
+    width:122px;
+    height:41px;
+    font-size:14px;
+    font-weight:bold;
+    text-align: center;
+    overflow: hidden;
+    float:left;
+}
+.nav_con li:hover{
+    cursor: pointer;
+}
+.nav_con li a{
+    color:#ffffff;
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none!important;
+}
+.nav_con li a:hover{
+    background: #FF4B01;
+}
+.nav_con .active{
+    font-weight: bold;
+    background: #FF4B01;
+    height: 41px;
+    width: 122px;
+    display: block;
+}
+.tab_title{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #FFF;
+    background-color: #0EFF26;
+    display: inline-block;
+}
+.active{
+    color: #FFF;
+    background-color: #FF260E;
+}
+/*页尾的样式*/
+.copyright_bg{
+    width: 100%;
+    height: 150px;
+    background-color: #292529;
+    border-top: 5px #FF4A00 solid;
+    font-size: 14px;
+    color: #fff;
+    overflow: hidden;
+}
+.copyright-content {
+    padding-top: 8px;
+    width: 1188px;
+    line-height: 35px;
+    margin: 0px auto;
+}
+.contact {
+    float: left;
+    width: 800px;
+    padding-top:28px;
+    line-height:35px;
+}
+.two-dimension-code {
+    width:100px;
+    float: right;
+    margin-top:5px;
+}
+.two-dimension-code p {
+    text-align: center;
+    height:25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+/*登录框的头像*/
+.userlogin{
+    width:50px;
+    height:50px;
+}

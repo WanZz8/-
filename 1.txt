@@ -1,0 +1,36 @@
+代码结构
++ src
+    + actions
+        home.js
+        login.js
+        global.js
+    + components
+        + Commons
+            + files
+            + styles
+            header.js
+            footer.js
+        + Home
+            + files
+            + styles
+            content.js
+        + Login
+            + files
+            + styles
+            login.js
+    + containers
+        + Home
+            home.js
+        + Login
+            login.js
+    + reducers
+        home.js
+        login.js
+        index.js
+    + store
+        index.js
+    + utils
+
+
+
+    https://github.com/hyy1115/react-redux-webpack2

@@ -1,0 +1,152 @@
+.padding_15 {
+    padding: 15px 0px;
+}
+
+#content {
+    width: 1188px;
+    margin: 0px auto;
+    background: #FFF;
+    border: 1px #CCC solid;
+    padding: 25px;
+    height: 550px;
+    min-height: 610px;
+    font-family: "΢���ź�", "Microsoft Yahei", Arial;
+}
+
+.lnk-home {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#home {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    font-size: 20px;
+}
+
+.title {
+    padding-bottom: 15px;
+}
+
+.title h1 {
+    font-size: 24px;
+    height: 35px;
+}
+
+.form-content {
+    width: 560px;
+    float: left;
+    padding-left: 25px;
+}
+
+.img-identify {
+    width: 450px;
+    float: right;
+    padding-left: 25px;
+    background: url(../../../images/login_r.jpg) right center no-repeat;
+    border-left: 1px #CCC solid;
+    height: 500px;
+}
+
+.img-tip {
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.img-tip a {
+    color: #06F;
+    font-weight: bold;
+}
+
+.img-tip a:hover {
+    color: #F30;
+}
+
+.btnds {
+    padding-left:10px;
+}
+.btnds .btn:active {
+    background-color: #FF6600;
+}
+.verify{
+    width:550px;
+    overflow: hidden;
+}
+.verify>div{
+    float:left;
+
+}
+.verify>div label{
+    vertical-align:middle;
+    height:32px;
+    line-height:32px;
+}
+.form {
+    width: 400px;
+    margin: 0px auto;
+}
+.form>div {
+    margin-top: 5px;
+}
+
+.identify-code {
+    color: #444242;
+    width: 80px;
+    padding: 0px 0px 0px 5px;
+    font: 200 12px/25px Arial, Helvetica, sans-serif;
+    height: 30px;
+    line-height: 15px;
+    margin: 2px 2px 16px 0px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    font-size: 16px;
+}
+
+#identify-code-1 {
+    margin-left: 8px;
+}
+
+#lab-identify-code {
+    margin-left: 28px;
+}
+.qrcode{
+    text-align: center;
+}
+
+.btnds .btn {
+    width: 235px;
+    color: #fff;
+    background-color: #FF4A01;
+    border-color: #FF6600;
+    height:35px;
+    line-height: 23px;
+    text-align: center;
+    padding:6px;
+    font-size:20px;
+    border-radius: 4px;
+    outline: none;
+}
+#btn-login {
+    margin-left: 0px;
+    text-align: center;
+}
+.spr{
+    padding: 0 3px;
+}
+.identify-tip {
+    padding-left: 18px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.errors {
+    color: red;
+}

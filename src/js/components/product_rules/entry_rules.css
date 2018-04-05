@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:#f6f6f6;
+}
+img,
+a img {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: top;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF3300;
+    text-decoration: none;
+}
+
+#main-content {
+    width: 1188px;
+    margin: 0px auto;
+    overflow: hidden;
+    min-height:720px;
+    font-size:13.8px;
+}
+
+.l_content {
+    float: left;
+    border:1px solid #CACACA;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+}
+
+.l_content .title {
+    padding-left: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px #F5F5F5 solid;
+}
+
+.l_content .title span {
+    height: 21px;
+    border-left: 3px #FF4A01 solid;
+    line-height: 21px;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.r_content {
+    width: 970px;
+    float: right;
+    padding-bottom: 25px;
+    font-size: 14px;
+    color: #333;
+    background: #ffffff;
+    font-family:"Times New Roman",Georgia,Serif;
+}
+
+.content_item p {
+    padding: 8px 0px;
+    line-height: 28px;
+}
+
+.regulation-ul {
+    maring: 0;
+    padding: 0px 25px;
+}
+
+.li1 {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px #C2C2C2 dashed;
+    font-size: 14px;
+    color: #FF4900;
+    font-weight: bold;
+    background: url(../../../images/index/ico2.jpg) 5px 16px no-repeat;
+    padding-left: 25px;
+}
+.regulation-title {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #F6F6F6;
+    height: 54px;
+    line-height: 54px;
+    padding-left: 25px;
+}
+#priceli {
+    list-style: none;
+    line-height: 20px;
+    text-indent: 25px;
+    padding-left: 20px;
+    background: url("../../../images/index/u64.png") no-repeat;
+    margin-top: 30px;
+}
+.li2 {
+    list-style: none;
+    padding-left: 5px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px #C2C2C2 dashed;
+    font-size: 14px;
+    color: #FF4900;
+    font-weight: bold;
+}
+.spannum {
+    background: url(../../../images/index/ico1.jpg) no-repeat;
+    width: 20px;
+    height: 20px;
+    color: #FFF;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.pic_upload_m {
+    width: 994px;
+    overflow: hidden;
+}
+.pic_upload_m img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: #333;
+    background: #f6f6f6;
+    font-family: Arial, "Microsoft YaHei";
+    font-family: 'Microsoft YaHei';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div,span,p,form,li,ul,ol,dl,dt,dd,
+a{
+    margin: 0px;
+    padding: 0px;
+}
+li,ul,ol{
+    list-style: none;
+}
+img,a img {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: top;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF3300;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+h3 b,h5 b{
+    display: none;
+}
+
+button,input,optgroup,select,textarea{
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.page {
+    clear:both; _overflow:hidden; *height:0px;
+}
+.clear {
+    clear: both;
+    _overflow: hidden;
+    *height: 0px;
+}
+.padding_15 {
+    padding-top: 15px;
+}
+#main-content {
+    background-color: #FFFFFF;
+    width: 1188px;
+    margin: 0px auto;
+}
+.item-title {
+    display: inline-block;
+    vertical-align: -12px;
+}
+.item-content {
+    padding-left: 40px;
+    padding-top: 25px;
+    width: 1060px;
+}
+.active{
+    color: #FFF;
+    background-color: #FF260E;
+}
